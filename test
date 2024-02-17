@@ -15,9 +15,9 @@ Name = <string> - The name of the section.
 ]]
 
 mainTab:AddButton({
-	Name = "Button!",
+	Name = "Anti afk",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darks-scripts/anti-afk-/main/darkscripts"))()
   	end    
 })
 
