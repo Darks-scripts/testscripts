@@ -75,7 +75,15 @@ do
     local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
 
     Toggle:OnChanged(function()
-        print("Toggle changed:", Options.MyToggle.Value)
+        game.Lighting.FogEnd = 9999999999 -- stops fog (annoying)
+	wait(1)
+	for i,v in pairs(game:GetService("Lighting"):GetChildren()) do
+        if v:IsA("PostEffect") then
+            v:Destroy()
+        end
+	    end
+	wait(1)
+	game.Lighting.Blur.Size = 0 -- stops blur (cancer)
     end)
 
     Options.MyToggle:SetValue(false)
