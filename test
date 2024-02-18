@@ -69,7 +69,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 
 
 autobuyTab:AddToggle({
-	Name = "autobuy2",
+	Name = "autobuy1",
 	Default = true,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
@@ -85,7 +85,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 
 
 autobuyTab:AddToggle({
-	Name = "autobuy3",
+	Name = "autobuy1",
 	Default = true,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
@@ -101,7 +101,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 
 
 autobuyTab:AddToggle({
-	Name = "autobuy4",
+	Name = "autobuy1",
 	Default = true,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
@@ -117,7 +117,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 
 
 autobuyTab:AddToggle({
-	Name = "autobuy5",
+	Name = "autobuy1",
 	Default = true,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
@@ -133,7 +133,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 
 
 autobuyTab:AddToggle({
-	Name = "autobuy6",
+	Name = "autobuy1",
 	Default = true,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
@@ -149,7 +149,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 
 
 autobuyTab:AddToggle({
-	Name = "autobuy7",
+	Name = "autobuy1",
 	Default = true,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
@@ -162,5 +162,3 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
             end
 	end    
 })
-
-OrionLib:Init()
