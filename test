@@ -67,6 +67,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 	end    
 })
 
+
 autobuyTab:AddToggle({
 	Name = "autobuy2",
 	Default = true,
@@ -81,6 +82,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
             end
 	end    
 })
+
 
 autobuyTab:AddToggle({
 	Name = "autobuy3",
@@ -97,6 +99,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 	end    
 })
 
+
 autobuyTab:AddToggle({
 	Name = "autobuy4",
 	Default = true,
@@ -111,6 +114,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
             end
 	end    
 })
+
 
 autobuyTab:AddToggle({
 	Name = "autobuy5",
@@ -127,6 +131,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 	end    
 })
 
+
 autobuyTab:AddToggle({
 	Name = "autobuy6",
 	Default = true,
@@ -142,6 +147,7 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 	end    
 })
 
+
 autobuyTab:AddToggle({
 	Name = "autobuy7",
 	Default = true,
@@ -156,4 +162,5 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
             end
 	end    
 })
+
 OrionLib:Init()
