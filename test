@@ -42,17 +42,16 @@ mainTab:AddButton({
 })
 
 
-local DarkTab = Window:MakeTab({
-	Name = "Dark",
+local darkTab = Window:MakeTab({
+	Name = "Tab 1",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
-local Section = DarkTab:AddSection({
-	Name = "Dark"
+local Section = darkTab:AddSection({
+	Name = "Section"
 })
 
-DarkTab:AddToggle({
+darkTab:AddToggle({
 	Name = "This is a toggle!",
 	Default = false,
 	Callback = function(Value)
@@ -60,7 +59,7 @@ DarkTab:AddToggle({
 	end    
 })
 
-DarkTab:AddToggle({
+darkTab:AddToggle({
 	Name = "This is a toggle!",
 	Default = false,
 	Callback = function(Value)
