@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Dark is op", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local mainTab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Main",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -43,7 +43,7 @@ mainTab:AddButton({
 
 
 local darkTab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Dark",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -53,16 +53,105 @@ local Section = darkTab:AddSection({
 
 darkTab:AddToggle({
 	Name = "This is a toggle!",
-	Default = false,
+	Default = true,
 	Callback = function(Value)
-		print(Value)
+		autoBreakEquipSlotsMachine = Value
+    while autoBreakEquipSlotsMachine and task.wait() do
+    local args = {
+    [1] = 1
+}
+
+game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:InvokeServer(unpack(args))
+            end
 	end    
 })
 
 darkTab:AddToggle({
 	Name = "This is a toggle!",
-	Default = false,
+	Default = true,
 	Callback = function(Value)
-		print(Value)
+		autoBreakEquipSlotsMachine = Value
+    while autoBreakEquipSlotsMachine and task.wait() do
+    local args = {
+    [1] = 2
+}
+
+game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+darkTab:AddToggle({
+	Name = "This is a toggle!",
+	Default = true,
+	Callback = function(Value)
+		autoBreakEquipSlotsMachine = Value
+    while autoBreakEquipSlotsMachine and task.wait() do
+    local args = {
+    [1] = 3
+}
+
+game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+darkTab:AddToggle({
+	Name = "This is a toggle!",
+	Default = true,
+	Callback = function(Value)
+		autoBreakEquipSlotsMachine = Value
+    while autoBreakEquipSlotsMachine and task.wait() do
+    local args = {
+    [1] = 4
+}
+
+game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+darkTab:AddToggle({
+	Name = "This is a toggle!",
+	Default = true,
+	Callback = function(Value)
+		autoBreakEquipSlotsMachine = Value
+    while autoBreakEquipSlotsMachine and task.wait() do
+    local args = {
+    [1] = 5
+}
+
+game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+darkTab:AddToggle({
+	Name = "This is a toggle!",
+	Default = true,
+	Callback = function(Value)
+		autoBreakEquipSlotsMachine = Value
+    while autoBreakEquipSlotsMachine and task.wait() do
+    local args = {
+    [1] = 6
+}
+
+game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+darkTab:AddToggle({
+	Name = "This is a toggle!",
+	Default = true,
+	Callback = function(Value)
+		autoBreakEquipSlotsMachine = Value
+    while autoBreakEquipSlotsMachine and task.wait() do
+    local args = {
+    [1] = 1
+}
+
+game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:InvokeServer(unpack(args))
+            end
 	end    
 })
