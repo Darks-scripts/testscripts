@@ -52,8 +52,8 @@ local Section = darkTab:AddSection({
 })
 
 darkTab:AddToggle({
-	Name = "This is a toggle!",
-	Default = true,
+	Name = "Auto buy",
+	Default = false,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
     while autoBreakEquipSlotsMachine and task.wait() do
@@ -67,8 +67,8 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 })
 
 darkTab:AddToggle({
-	Name = "This is a toggle!",
-	Default = true,
+	Name = "Auto buy",
+	Default = false,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
     while autoBreakEquipSlotsMachine and task.wait() do
@@ -82,8 +82,8 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 })
 
 darkTab:AddToggle({
-	Name = "This is a toggle!",
-	Default = true,
+	Name = "Auto buy",
+	Default = false,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
     while autoBreakEquipSlotsMachine and task.wait() do
@@ -97,8 +97,8 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 })
 
 darkTab:AddToggle({
-	Name = "This is a toggle!",
-	Default = true,
+	Name = "Auto buy",
+	Default = false,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
     while autoBreakEquipSlotsMachine and task.wait() do
@@ -112,8 +112,8 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 })
 
 darkTab:AddToggle({
-	Name = "This is a toggle!",
-	Default = true,
+	Name = "Auto buy",
+	Default = false,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
     while autoBreakEquipSlotsMachine and task.wait() do
@@ -127,8 +127,8 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 })
 
 darkTab:AddToggle({
-	Name = "This is a toggle!",
-	Default = true,
+	Name = "Auto buy",
+	Default = false,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
     while autoBreakEquipSlotsMachine and task.wait() do
@@ -142,13 +142,13 @@ game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:I
 })
 
 darkTab:AddToggle({
-	Name = "This is a toggle!",
-	Default = true,
+	Name = "Auto buy",
+	Default = false,
 	Callback = function(Value)
 		autoBreakEquipSlotsMachine = Value
     while autoBreakEquipSlotsMachine and task.wait() do
     local args = {
-    [1] = 1
+    [1] = 7
 }
 
 game:GetService("ReplicatedStorage").Network.EquipSlotsMachine_RequestPurchase:InvokeServer(unpack(args))
