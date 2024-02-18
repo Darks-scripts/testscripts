@@ -51,7 +51,6 @@ local Section = DarkTab:AddSection({
 	Name = "Dark"
 })
 
-
 DarkTab:AddToggle({
 	Name = "This is a toggle!",
 	Default = false,
@@ -59,7 +58,6 @@ DarkTab:AddToggle({
 		print(Value)
 	end    
 })
-
 
 DarkTab:AddToggle({
 	Name = "This is a toggle!",
