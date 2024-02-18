@@ -52,7 +52,7 @@ local Section = DarkTab:AddSection({
 })
 
 
-Tab:AddToggle({
+DarkTab:AddToggle({
 	Name = "This is a toggle!",
 	Default = false,
 	Callback = function(Value)
@@ -61,7 +61,7 @@ Tab:AddToggle({
 })
 
 
-Tab:AddToggle({
+DarkTab:AddToggle({
 	Name = "This is a toggle!",
 	Default = false,
 	Callback = function(Value)
